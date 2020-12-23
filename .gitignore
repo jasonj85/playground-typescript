@@ -1,1 +1,30 @@
-**/node_modules/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+**/.cache/
+**/dist/
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.vercel
+maps/.cache/0c/f5fd52e453bd31b38c485a3fc0ff21.json
+maps/.cache/dc/5dde15849a941e6d5d1618274ee74e.json
+maps/.cache/de/3cea3c3fb16a3ba9a7a0f6d1e24462.json
